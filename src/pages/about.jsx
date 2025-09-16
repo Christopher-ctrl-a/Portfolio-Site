@@ -9,7 +9,7 @@ export default function About() {
     <section className="about-section">
       
               <h1>About Me</h1>
-              <p>Thanks for checking out my site! My name is <span className="highlight">Christopher Esguerra</span> and I'm a <span className="highlight">junior software engineer</span> (advanced diploma by 2027). I'm always excited to learn new skills and apply them to personal and academic projects. My other hobbies include rock climbing, casual walks, and video games.</p>
+              <p>Thanks for checking out my site! My name is <span className="highlight">Christopher Esguerra</span> and I'm a <span className="highlight">junior software engineer</span> (advanced diploma by 2027). I'm always excited to learn new skills and apply them to personal and academic projects. My other hobbies include rock climbing, working out at the gym, and video games.</p>
        
        <img src={Profile} alt="Profile" className="about-image" />
      
@@ -25,4 +25,5 @@ export default function About() {
     </footer>
   </>
   )
+
 }
